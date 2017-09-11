@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "es6",
+    "target": "es5",
+    "lib":["dom", "es6", "DOM.Iterable", "ScriptHost", "ES2016.Array.Include", "es2017"],
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "removeComments": true
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "./node_modules",
+    "**/*.test.ts",
+    "**/*.react-test.tsx"
+  ] 
+}

@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+i {
+    &:hover {
+        transform: scale(1.2);
+    }
+    &.action-icon {
+        cursor: pointer;
+        font-size: 20px;
+    }
+}
+
+textarea#content {
+    height: 200px;
+}
